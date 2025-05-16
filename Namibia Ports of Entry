@@ -1,5 +1,12 @@
 <style>
 
+/* ======================
+SOURCE: https://github.com/Leon2332/Fly-Namibia/blob/main/Namibia%20Ports%20of%20Entry
+AUTHOR: Leon (https://github.com/Leon2332)
+CLIENT: https://flynam.com/
+====================== */
+
+
 @import url("https://use.typekit.net/ner6bcf.css");
   .namibia_map_point_text {
     font-family: roboto;
@@ -223,10 +230,3 @@ viewBox="0 0 1010 1000">
 
 
 </svg>
-
-
-
-
-
-
-
