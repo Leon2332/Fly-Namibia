@@ -1,34 +1,84 @@
 <style>
 
 @import url("https://use.typekit.net/ner6bcf.css");
+  .namibia_map_point_text {
+    font-family: roboto;
+    font-weight: 300;
+    fill: none;
+    font-size: 22px;
+  }
 
 
-*/ ELEMENT CLASSES /*
-
-  .namibia_map_point_text {}
+/* ELEMENT CLASSES */
 
   .namibia-map {
-    stroke-width:
-    stroke:
-    fill:
+    stroke-width: 1;
+    stroke: #C0D03C;
+    fill: none;
   }
 
-  .namibia_map_points {
-    stroke-width:
-    stroke:
-    fill:
+  .namibia_map_points_g1, .namibia_map_points_g2, .namibia_map_points_g3 {
+    stroke-width: 3;
+    stroke: #C0D03C;
+    fill: white;
   }
 
-  .namibia_map_points:hover {
-    stroke:
-    fill:
+  .namibia_map_points_g1:hover, .namibia_map_points_g2:hover, .namibia_map_points_g3:hover
+    {
+    stroke: #F48C26;
+    fill: #F48C2650;
   }
 
 
-*/ ELEMENT IDs /*
 
-  :has(#namibia_map_point_1) :is(#namibia_map_point_text_1) {}
+/* ELEMENT IDs */
 
+  :has(#namibia_map_point_1:hover) :is(#namibia_map_point_text_1),
+  :has(#namibia_map_point_2:hover) :is(#namibia_map_point_text_2),
+  :has(#namibia_map_point_3:hover) :is(#namibia_map_point_text_3),
+  :has(#namibia_map_point_4:hover) :is(#namibia_map_point_text_4),
+  :has(#namibia_map_point_5:hover) :is(#namibia_map_point_text_5),
+  :has(#namibia_map_point_6:hover) :is(#namibia_map_point_text_6),
+  :has(#namibia_map_point_7:hover) :is(#namibia_map_point_text_7),
+  :has(#namibia_map_point_8:hover) :is(#namibia_map_point_text_8),
+  :has(#namibia_map_point_9:hover) :is(#namibia_map_point_text_9),
+  :has(#namibia_map_point_10:hover) :is(#namibia_map_point_text_10),
+  :has(#namibia_map_point_11:hover) :is(#namibia_map_point_text_11),
+  :has(#namibia_map_point_12:hover) :is(#namibia_map_point_text_12),
+  :has(#namibia_map_point_13:hover) :is(#namibia_map_point_text_13),
+  :has(#namibia_map_point_14:hover) :is(#namibia_map_point_text_14),
+  :has(#namibia_map_point_15:hover) :is(#namibia_map_point_text_15),
+  :has(#namibia_map_point_16:hover) :is(#namibia_map_point_text_16),
+  :has(#namibia_map_point_17:hover) :is(#namibia_map_point_text_17),
+  :has(#namibia_map_point_18:hover) :is(#namibia_map_point_text_18),
+  :has(#namibia_map_point_19:hover) :is(#namibia_map_point_text_19),
+  :has(#namibia_map_point_20:hover) :is(#namibia_map_point_text_20),
+  :has(#namibia_map_point_21:hover) :is(#namibia_map_point_text_21),
+  :has(#namibia_map_point_22:hover) :is(#namibia_map_point_text_22),
+  :has(#namibia_map_point_23:hover) :is(#namibia_map_point_text_23),
+  :has(#namibia_map_point_24:hover) :is(#namibia_map_point_text_24),
+  :has(#namibia_map_point_25:hover) :is(#namibia_map_point_text_25),
+  :has(#namibia_map_point_26:hover) :is(#namibia_map_point_text_26),
+  :has(#namibia_map_point_27:hover) :is(#namibia_map_point_text_27),
+  :has(#namibia_map_point_28:hover) :is(#namibia_map_point_text_28),
+  :has(#namibia_map_point_29:hover) :is(#namibia_map_point_text_29),
+  :has(#namibia_map_point_30:hover) :is(#namibia_map_point_text_30),
+  :has(#namibia_map_point_31:hover) :is(#namibia_map_point_text_31),
+  :has(#namibia_map_point_32:hover) :is(#namibia_map_point_text_32),
+  :has(#namibia_map_point_33:hover) :is(#namibia_map_point_text_33),
+  :has(#namibia_map_point_34:hover) :is(#namibia_map_point_text_34)
+    {
+    fill: #F48C26;
+  }
+
+
+  :has(#namibia_map_points_button_1:hover) :is(.namibia_map_points_g1),
+  :has(#namibia_map_points_button_2:hover) :is(.namibia_map_points_g2),
+  :has(#namibia_map_points_button_3:hover) :is(.namibia_map_points_g3)
+    {
+    stroke: #F48C26;
+    fill: #F48C2650;
+  }
 
 </style>
 
@@ -62,140 +112,115 @@ viewBox="0 0 1010 1000">
 
 
 
+  
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_1" transform="matrix(1, 0, 0, 1, 599.79, 880.71)" cx="0" cy="0" rx="10" ry="10"/>
+     <text class="namibia_map_point_text" id="namibia_map_point_text_1" x="5" y="960">Ariamsvlei Border</text> 
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_2" transform="matrix(1, 0, 0, 1, 423.43, 464.42)" cx="0" cy="0" rx="10" ry="10"/>
+     <text class="namibia_map_point_text" id="namibia_map_point_text_2" x="5" y="960">Hosea Kutako International Airport</text> 
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_3" transform="matrix(1, 0, 0, 1, 995.08, 116.4)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_3" x="5" y="960">Impalila Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_4" transform="matrix(1, 0, 0, 1, 927.46, 96.18)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_4" x="5" y="960">Katima Mulilo Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_5" transform="matrix(1, 0, 0, 1, 253.44, 771.6)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_5" x="5" y="960">Lüderitz Harbour</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_6" transform="matrix(1, 0, 0, 1, 741.13, 151.73)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_6" x="5" y="960">Mohembo Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_7" transform="matrix(1, 0, 0, 1, 435.18, 927.97)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_7" x="5" y="960">Noordoewer Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_8" transform="matrix(1, 0, 0, 1, 959.38, 126.44)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_8" x="5" y="960">Ngoma Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_9" transform="matrix(1, 0, 0, 1, 352.27, 913.3)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_9" x="5" y="960">Oranjemund Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_10" transform="matrix(1, 0, 0, 1, 307.16, 88.17)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_10" x="5" y="960">Oshikango Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_11" transform="matrix(1, 0, 0, 1, 609.93, 449.27)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_11" x="5" y="960">Trans-Kalahari Border</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_12" transform="matrix(1, 0, 0, 1, 203.71, 498.94)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_12" x="5" y="960">Walvis Bay Airport</text>
+
+  <ellipse class="namibia_map_points_g1" id="namibia_map_point_13" transform="matrix(1, 0, 0, 1, 214.82, 500.7)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_13" x="5" y="960">Walvis Bay Harbour</text>
 
 
 
 
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_14" transform="matrix(1, 0, 0, 1, 395.21, 472.89)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_14" x="5" y="960">Eros Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_15" transform="matrix(1, 0, 0, 1, 534.68, 461.73)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_15" x="5" y="960">Gobabis Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_16" transform="matrix(1, 0, 0, 1, 471.05, 248.97)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_16" x="5" y="960">Grootfontein Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_17" transform="matrix(1, 0, 0, 1, 988.3, 118.89)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_17" x="5" y="960">Kasika Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_18" transform="matrix(1, 0, 0, 1, 493.63, 88.22)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_18" x="5" y="960">Katwitwi Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_19" transform="matrix(1, 0, 0, 1, 471.18, 763.99)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_19" x="5" y="960">Keetmanshoop Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_20" transform="matrix(1, 0, 0, 1, 608.08, 754.98)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_20" x="5" y="960">Klein Manasse Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_21" transform="matrix(1, 0, 0, 1, 259.42, 775.16)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_21" x="5" y="960">Lüderitz Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_22" transform="matrix(1, 0, 0, 1, 608.53, 706.56)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_22" x="5" y="960">Mata-Mata Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_23" transform="matrix(1, 0, 0, 1, 919.8, 105.41)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_23" x="5" y="960">Mpacha Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_24" transform="matrix(1, 0, 0, 1, 508.23, 105.2)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_24" x="5" y="960">Nkurenkuru Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_25" transform="matrix(1, 0, 0, 1, 210.87, 89.21)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_25" x="5" y="960">Omahenene Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_26" transform="matrix(1, 0, 0, 1, 311.1, 124.17)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_26" x="5" y="960">Ondangwa Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_27" transform="matrix(1, 0, 0, 1, 348.22, 915.31)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_27" x="5" y="960">Oranjemund Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_28" transform="matrix(1, 0, 0, 1, 197.1, 90.24)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_28" x="5" y="960">Ruacana Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_29" transform="matrix(1, 0, 0, 1, 590.69, 129.86)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_29" x="5" y="960">Rundu Airport</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_30" transform="matrix(1, 0, 0, 1, 596.42, 123.33)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_30" x="5" y="960">Sarusungu Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_31" transform="matrix(1, 0, 0, 1, 380.46, 880.23)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_31" x="5" y="960">Senderlingsdrift Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_32" transform="matrix(1, 0, 0, 1, 863.63, 109.99)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_32" x="5" y="960">Singalamwe Border</text>
+
+  <ellipse class="namibia_map_points_g2" id="namibia_map_point_33" transform="matrix(1, 0, 0, 1, 559.71, 925.97)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_33" x="5" y="960">Verloorsdrift Border</text>
 
 
-Walvis Bay Airport
-Walvis Bay Harbour
-
-Eros Airport
-Gobabis Airport
-Grootfontein Airport
-Kasika Border
-Katwitwi Border
-Keetmanshoop Airport
-Klein Manasse Border
-Lüderitz Airport
-Mata-Mata Border
-Mpacha Airport
-Nkurenkuru Border
-Omahenene Border
-Ondangwa Airport
-Oranjemund Airport
-Ruacana Border
-Rundu Airport
-Sarusungu Border
-Senderlingsdrift Border
-Singalamwe Border
-Verloorsdrift Border
-
-Dobe Border
 
 
-  <ellipse class="namibia_map_points" id="namibia_map_point_1" transform="matrix(1, 0, 0, 1, 599.79, 880.71)" cx="0" cy="0" rx="10" ry="10"/>
-     <text class="namibia_map_point_text" id="namibia_map_point_text_1">Ariamsvlei Border</text> 
+  <ellipse class="namibia_map_points_g3" id="namibia_map_point_34" transform="matrix(1, 0, 0, 1, 683.93, 249.39)" cx="0" cy="0" rx="10" ry="10"/>
+    <text class="namibia_map_point_text" id="namibia_map_point_text_34" x="5" y="960">Dobe Border</text>
 
-  <ellipse class="namibia_map_points" id="namibia_map_point_2" transform="matrix(1, 0, 0, 1, 423.43, 464.42)" cx="0" cy="0" rx="10" ry="10"/>
-     <text class="namibia_map_point_text" id="namibia_map_point_text_2">Hosea Kutako International Airport</text> 
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_3" transform="matrix(1, 0, 0, 1, 995.08, 116.4)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_3">Impalila Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_4" transform="matrix(1, 0, 0, 1, 927.46, 96.18)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_4">Katima Mulilo Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_5" transform="matrix(1, 0, 0, 1, 253.44, 771.6)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_5">Lüderitz Harbour</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_6" transform="matrix(1, 0, 0, 1, 741.13, 151.73)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_6">Mohembo Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_7" transform="matrix(1, 0, 0, 1, 435.18, 927.97)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_7">Noordoewer Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_8" transform="matrix(1, 0, 0, 1, 959.38, 126.44)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_8">Ngoma Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_9" transform="matrix(1, 0, 0, 1, 352.27, 913.3)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_9">Oranjemund Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_10" transform="matrix(1, 0, 0, 1, 307.16, 88.17)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_10">Oshikango Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_11" transform="matrix(1, 0, 0, 1, 609.93, 449.27)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_11">Trans-Kalahari Border</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_12" transform="matrix(1, 0, 0, 1, 203.71, 498.94)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_12">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_13" transform="matrix(1, 0, 0, 1, 214.82, 500.7)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_13">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_14" transform="matrix(1, 0, 0, 1, 395.21, 472.89)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_14">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_15" transform="matrix(1, 0, 0, 1, 534.68, 461.73)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_15">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_16" transform="matrix(1, 0, 0, 1, 471.05, 248.97)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_16">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_17" transform="matrix(1, 0, 0, 1, 988.3, 118.89)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_17">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_18" transform="matrix(1, 0, 0, 1, 493.63, 88.22)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_18">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_19" transform="matrix(1, 0, 0, 1, 471.18, 763.99)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_19">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_20" transform="matrix(1, 0, 0, 1, 608.08, 754.98)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_20">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_21" transform="matrix(1, 0, 0, 1, 259.42, 775.16)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_21">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_22" transform="matrix(1, 0, 0, 1, 608.53, 706.56)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_22">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_23" transform="matrix(1, 0, 0, 1, 919.8, 105.41)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_23">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_24" transform="matrix(1, 0, 0, 1, 508.23, 105.2)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_24">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_25" transform="matrix(1, 0, 0, 1, 210.87, 89.21)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_25">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_26" transform="matrix(1, 0, 0, 1, 311.1, 124.17)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_26">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_27" transform="matrix(1, 0, 0, 1, 348.22, 915.31)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_27">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_28" transform="matrix(1, 0, 0, 1, 197.1, 90.24)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_28">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_29" transform="matrix(1, 0, 0, 1, 590.69, 129.86)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_29">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_30" transform="matrix(1, 0, 0, 1, 596.42, 123.33)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_30">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_31" transform="matrix(1, 0, 0, 1, 380.46, 880.23)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_31">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_32" transform="matrix(1, 0, 0, 1, 863.63, 109.99)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_32">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_33" transform="matrix(1, 0, 0, 1, 559.71, 925.97)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_33">NAME</text>
-
-  <ellipse class="namibia_map_points" id="namibia_map_point_34" transform="matrix(1, 0, 0, 1, 683.93, 249.39)" cx="0" cy="0" rx="10" ry="10"/>
-    <text class="namibia_map_point_text" id="namibia_map_point_text_34">NAME</text>
 
 </svg>
 
