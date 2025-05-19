@@ -7,9 +7,9 @@ CLIENT: https://flynam.com/
 ====================== */
 
 
-@import url("https://use.typekit.net/ner6bcf.css");
+@import url("https://use.typekit.net/yle3ocu.css");
   .namibia_map_point_text {
-    font-family: roboto;
+    font-family: dm-sans;
     font-weight: 300;
     fill: none;
     font-size: 22px;
@@ -20,20 +20,20 @@ CLIENT: https://flynam.com/
 
   .namibia-map {
     stroke-width: 1;
-    stroke: #C0D03C;
+    stroke: #ab292e;
     fill: none;
   }
 
   .namibia_map_points_g1, .namibia_map_points_g2, .namibia_map_points_g3 {
     stroke-width: 3;
-    stroke: #C0D03C;
+    stroke: #ab292e50;
     fill: white;
   }
 
   .namibia_map_points_g1:hover, .namibia_map_points_g2:hover, .namibia_map_points_g3:hover
     {
-    stroke: #F48C26;
-    fill: #F48C2650;
+    stroke: #ab292e;
+    fill: #ab292e70;
   }
 
 
@@ -75,7 +75,7 @@ CLIENT: https://flynam.com/
   :has(#namibia_map_point_33:hover) :is(#namibia_map_point_text_33),
   :has(#namibia_map_point_34:hover) :is(#namibia_map_point_text_34)
     {
-    fill: #F48C26;
+    fill: #ab292e;
   }
 
 
@@ -83,8 +83,8 @@ CLIENT: https://flynam.com/
   :has(#namibia_map_points_button_2:hover) :is(.namibia_map_points_g2),
   :has(#namibia_map_points_button_3:hover) :is(.namibia_map_points_g3)
     {
-    stroke: #F48C26;
-    fill: #F48C2650;
+    stroke: #ab292e;
+    fill: #ab292e70;
   }
 
 </style>
